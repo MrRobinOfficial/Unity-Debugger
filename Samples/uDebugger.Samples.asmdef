@@ -1,0 +1,16 @@
+{
+    "name": "Debugger.Samples",
+    "rootNamespace": "",
+    "references": [
+        "GUID:4e8ee6d7d5f43b3499a7b67897293983"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

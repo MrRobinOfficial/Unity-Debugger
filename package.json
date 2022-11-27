@@ -1,0 +1,25 @@
+{
+  "name": "com.mrrobin.debugger",
+  "version": "0.9.1",
+  "displayName": "Debugger",
+  "description": "Developer Console",
+  "unity": "2021.3",
+  "unityRelease": "0f1",
+  "documentationUrl": "https://example.com/",
+  "changelogUrl": "https://example.com/changelog.html",
+  "licensesUrl": "https://example.com/licensing.html",
+  "dependencies": {
+    "com.unity.nuget.newtonsoft-json": "3.0.2",
+ },
+ "keywords": [
+    "debug",
+    "developer",
+    "console",
+    "dev"
+  ],
+  "author": {
+    "name": "MrRobin",
+    "email": "mrrobin123mail@gmail.com",
+    "url": "https://github.com/MrRobinOfficial"
+  }
+}

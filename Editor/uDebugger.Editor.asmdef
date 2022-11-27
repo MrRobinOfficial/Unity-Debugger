@@ -1,0 +1,22 @@
+{
+    "name": "Debugger.Editor",
+    "rootNamespace": "",
+    "references": [
+        "GUID:4e8ee6d7d5f43b3499a7b67897293983",
+        "GUID:776d03a35f1b52c4a9aed9f56d7b4229"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": true,
+    "precompiledReferences": [
+        "Newtonsoft.Json.dll",
+        "UnityParsers.dll"
+    ],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
