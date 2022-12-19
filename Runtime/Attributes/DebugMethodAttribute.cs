@@ -1,20 +1,21 @@
-﻿using System;
-using UnityEngine.Scripting;
+using System;
 
-namespace Debugger
+namespace uDebugger.Attributes
 {
-    [AttributeUsage(AttributeTargets.Method, AllowMultiple = true)]
-    public sealed class DebugMethodAttribute : PreserveAttribute
+    [AttributeUsage(AttributeTargets.Method)]
+    public sealed class DebugMethodAttribute : UnityEngine.Scripting.PreserveAttribute
     {
         public readonly string alias = string.Empty;
+        public readonly string altAlias = string.Empty;
         public readonly string description = string.Empty;
 
-        public DebugMethodAttribute(string alias, string description = "")
+        public DebugMethodAttribute([System.Runtime.CompilerServices.CallerMemberName] string alias = "",
+                                    string altAlias = "",
+                                    string description = "")
         {
-            this.alias = alias;
-            this.description = description;
+            this.alias= alias;
+            this.altAlias= altAlias;
+            this.description= description;
         }
-
-        public DebugMethodAttribute([System.Runtime.CompilerServices.CallerMemberName] string alias = "") => this.alias = alias;
-    }
+    } 
 }

@@ -1,21 +1,13 @@
 using System;
 
-namespace Debugger
+namespace uDebugger.Attributes
 {
-    [AttributeUsage(AttributeTargets.Field, AllowMultiple = true)]
-    public sealed class DebugFieldAttribute : Attribute
+    [AttributeUsage(AttributeTargets.Field)]
+    public sealed class DebugFieldAttribute : UnityEngine.Scripting.PreserveAttribute
     {
-        public readonly string alias = string.Empty;
         public readonly string description = string.Empty;
-        public readonly bool isReadOnly = false;
 
-        public DebugFieldAttribute() { }
-
-        public DebugFieldAttribute(string alias, string description = "", bool isReadOnly = false)
-        {
-            this.alias = alias;
+        public DebugFieldAttribute(string description = "") => 
             this.description = description;
-            this.isReadOnly = isReadOnly;
-        }
     }
 }
