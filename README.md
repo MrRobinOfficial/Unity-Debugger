@@ -5,7 +5,7 @@
 
 <h1 align="center">uDebugger [Unity Engine]</h1>
 
-*Free and open-source developer console for Unity using C#, that allows you to create custom commands and customize the appearance of the console. With this tool, you can easily add support for custom commands and use preprocessor directives to specify which types of commands you want to use.*
+*Developer console for Unity using C#, that allows you to create custom commands and customize the appearance of the console. Easily add support for custom commands and use preprocessor directives to specify which types of commands you want to use.*
 
 <div align="center">
   
@@ -16,11 +16,13 @@
 
 ## Installation
 
-* [Add package](https://docs.unity3d.com/Manual/upm-ui-giturl.html) from this git URL: ```com.mrrobin.debugger``` or https://github.com/MrRobinOfficial/Unity-Debugger.git
+[Add package](https://docs.unity3d.com/Manual/upm-ui-giturl.html) from this git URL: `com.mrrobin.debugger`.
 
-Or
+Or clone repo into your Unity project folder:
 
-* Clone repo and extract to your Unity project folder.
+```console
+https://github.com/MrRobinOfficial/Unity-Debugger.git
+```
 
 ## Quick guide
 
